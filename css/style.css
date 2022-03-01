@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+:root{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 10px;
+    color: rgb(255, 127, 155);
+}
+
+.profile{
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#header{
+    height: 7vh;
+    display: flex;
+    padding: 
+}
+
+.tab{
+    padding: 20px;
+    margin: 0 20px;
+    font-size: 20px;
+    border-bottom: solid 2px rgb(252, 0, 0);
+    transition: border .3s ease-in;
+    cursor: pointer;
+    color: rgb(131, 2, 2);
+}
+
+.tab:hover{
+    border-bottom: solid 4px rgb(255, 141, 141);
+    border-radius: 10px;
+    background: #ccc;
+}
+
+#avatar{
+    position: absolute;
+    right: -10vh;
+    bottom: 20vh;
+}
+
+#content{
+    width: 70vh;
+    height: 50vh;
+    position: relative;
+    top: 20vh;
+    left: 8vh;
+    animation: tab 1s forwards;
+}
+
+.tab_content{
+    position: absolute;
+    top:10vh;
+    
+    text-decoration: none;
+}
+
+.more_infor-content p a{
+    text-decoration: none;
+}
+
+.on{
+    display: none;
+    animation: tab 1s forwards;
+}
+
+@keyframes tab{
+    0%{
+        left: -100vh;
+    }
+    100%{
+        left: 1vh;
+    }
+}
+
+.gioi_thieu-content{
+    display: block;
+}
