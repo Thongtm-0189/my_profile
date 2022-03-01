@@ -20,7 +20,7 @@ body{
 }
 
 .profile{
-    background-image: url(/img/background.jpg);
+    background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
