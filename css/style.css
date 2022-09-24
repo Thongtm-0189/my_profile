@@ -6,41 +6,51 @@
 
 body{
     overflow: hidden;
+    height: 100vh;
+    display: block;
 }
 
 :root{
     font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .text{
-    font-size: 23px;
+    text-align: center;
+    font-size: 200%;
     font-weight: 500;
     margin: 10px;
-    color: rgb(255, 127, 155);
 }
 
+.text2{
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    margin: 10px;
+}
 .profile{
-    background-image: url(background.jpg);
+    background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 #header{
-    height: 7vh;
-    display: flex;
-    padding: 
+    margin-top: 1%;
+    height: 5%;
+    width: 100%;
+    display:flex;
 }
 
 .tab{
-    padding: 20px;
-    margin: 0 20px;
-    font-size: 20px;
+    margin: 0 1%;
+    font-size: 150%;
     border-bottom: solid 2px rgb(252, 0, 0);
-    transition: border .3s ease-in;
+    transition: background .1s ease-in, border .1s ease-in;
     cursor: pointer;
     color: rgb(131, 2, 2);
+    display: inline;
 }
 
 .tab:hover{
@@ -50,24 +60,30 @@ body{
 }
 
 #avatar{
-    position: absolute;
-    right: -10vh;
-    bottom: 20vh;
+    position:absolute;
+    right: 0;
+    width: 30vw;
+}
+
+h2,
+img{
+    text-align: center;
+    position: relative;
+    top: 10%;
 }
 
 #content{
-    width: 70vh;
+    display: inline-block;
+    width: 60vw;
     height: 50vh;
     position: relative;
-    top: 20vh;
-    left: 8vh;
     animation: tab 1s forwards;
 }
 
 .tab_content{
     position: absolute;
-    top:10vh;
-    
+    top:20vh;
+    display: block;
     text-decoration: none;
 }
 
@@ -75,11 +91,14 @@ body{
     text-decoration: none;
 }
 
+.avatar,
 .on{
     display: none;
     animation: tab 1s forwards;
 }
-
+.til{
+    display: none;
+}
 @keyframes tab{
     0%{
         left: -100vh;
@@ -92,3 +111,5 @@ body{
 .gioi_thieu-content{
     display: block;
 }
+
+

@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .textPo{
+        font-size: 100%;
+    }
+
+    .textPo2{
+        font-size: 80%;
+    }
+
+    
+}
+@media (max-width: 800px) {
+    .profile{
+        background-image: url(../img/images.jpg);
+        background-repeat: repeat;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+    }    
+
+    #header {
+        display: none;
+    }
+    body{
+        overflow:scroll;
+    }
+
+    #avatar {
+        display: none;
+    }
+
+    .til,.on,.avatar{
+        display: block;
+    }
+    .til{
+        border-top: solid 1px #ccc;
+        margin-top: 15vw;
+        font-size: 200%;
+    }
+
+    .center {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+    }
+
+    #content {
+        width: 100%;
+    }
+    .tab_content{
+        position: static;
+    }
+}

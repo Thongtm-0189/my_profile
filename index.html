@@ -4,64 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/position.css">
     <title>Trần Minh Thông</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
 </head>
 <body>
     <div class="profile">
         <div id="header">
             <div class="gioi_thieu tab in">
-                Introduction
+                <p  >Introduction</p>
             </div>
             <div class="kha_nang tab in">
-                Ability
+                Skill
+            </div>
+            <div class="experience tab in">
+                Experience
             </div>
             <div class="so_thich tab in">
                 Interest
             </div>
             <div class="more_infor tab in">
-                More about me 
+                Connect 
             </div>
         </div>
 
         <div id="avatar">
-            <img src="avt-removebg-preview.png" alt="">
-            <h2><b>Trần Minh Thông (23/10/2002)</b></h2>
+            <img src="./img/avatar.jpeg" alt=""  style="width: 70%;">
+            <h2><b class="textPo2">Trần Minh Thông (23/10/2002)</b></h2>
         </div>
 
         <div id="content">
-            <div class="title">click other to know more about me</div>
-            <div class="gioi_thieu-content on tab_content">
-                <p class="text">Chào tôi là Thông, Trần Minh Thông. Đến từ vùng cao hẻo lánh Kon Tum.</p>
-                <p class="text">Như không vì thế mà tôi bỏ cuộc trước cuộc đời này.</p>
-                <p class="text"><b><ins>My slogan: basic but not easy</ins></b></p>
-                <h3>chọn các tab khác để biết thêm về tôi.</h3>
+
+            <div class="avatar center">
+                <img src="./img/avatar.jpeg" alt="" class="center" style="width: 100%;">
+                <h2><b class="textPo2">Trần Minh Thông </b></h2>
+            </div>
+
+            <div class="gioi_thieu-content on tab_content nonPosition">
+                <title class="til text2" style="color: orangered;">Introduction</title>
+                <p class="text textPo">TRAN MINH THONG</p>
+                <p class="text textPo">0359791037 - thongminh23102002@</p>
+                <p class="text textPo"><b><ins>My slogan: basic but not easy</ins></b></p>
 
             </div>
+
             <div class="kha_nang-content on tab_content">
-                <p class="text">Hiện tại tôi đang học ngành công nghệ thông tin, chuyên ngành kỹ thuật phần mềm</p>
-                <p class="text">Các ngôn ngữ lập trình tôi đã và đang học: java scprit <ion-icon name="logo-javascript" style="color: yellow ;" ></ion-icon>, HTML <ion-icon name="logo-html5" style="color: orangered;" ></ion-icon>, CSS <ion-icon name="logo-css3" style="color: rgb(67, 242, 255);" ></ion-icon>, PYTHON <ion-icon name="logo-python"></ion-icon>, và ngôn ngữ C</p>
-                <p class="text">Mình còn biết đàn nữa, nhưng mà hát thì không ổn đâu :((</p>
+                <title class="til text2" style="color: orangered;">Skill</title>
+                <p class="text2 textPo">CNTT - Software engineering</p>
+                <p class="text2 textPo">Programming language: javaScprit<ion-icon name="logo-javascript" style="color: yellow ;" ></ion-icon>, 
+                    HTML <ion-icon name="logo-html5" style="color: orangered;" ></ion-icon>, 
+                    CSS <ion-icon name="logo-css3" style="color: rgb(67, 242, 255);" ></ion-icon>, 
+                    PYTHON <ion-icon name="logo-python"></ion-icon>, Java, C/C++, C#</p>
+                <br>
+                <p class="text textPo">Basic game programming and rendering (Unity)</p>
             </div>
+
+
+            <div class="experience-content on tab_content">
+                <title class="til text2" style="color: orangered;">Experience</title>
+                <p class="text2 textPo">Building a 3D virtual environment for the farmstay CHIlling World project (2022)</p>
+                <p class="text2 textPo" style="font-size: 100%;"><a href="https://www.youtube.com/watch?v=cUuUjgcbzCI">Build farmstay in 3D environment, to have an overview of the terrain or landscape after completion</a></p>
+            
+            </div>
+
             <div class="so_thich-content on tab_content">
-                <p class="text">Sở thích: thích bơi lội, chạy bộ, và các môn thể thao có tính thể lực cao. </p>
-                <p class="text">Còn thích đọc sách nữa, có thể liên hệ với mình để mình có thể chỉ cho vài cuốn sách hay nha, kể cả truyện và manga nhá.</p>
-                <p class="text">Mình khá dị ứng với tiếng ồn đừng lôi mình tới nơi đông người quá nhá, và rủ mình chơi game nếu như đó kh phải sau 21h nhá.</p>
+                <title class="til text2" style="color: orangered;">Interest</title>
+                <p class="text2 textPo">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
             </div>
+
             <div class="more_infor-content on tab_content">
+                <title class="til text2 textPo" style="color: orangered;">Connect</title>
                 <br>
-                <p class="text"><a class="text" href="https://github.com/Thongtm-0189"  >Click: Ghé thăm trang GitHub của mình nhé <ion-icon name="logo-github"></ion-icon></a><h6>(Mới tạo gần đây nên chưa up nhiều đâu ahihi)</h6></p> 
+                <p class="text2 textPo2"><a class="text" href="https://github.com/Thongtm-0189" style="font-size: xx-large;">Github: <ion-icon name="logo-github"></ion-icon></a></p> 
                 <br>
-                <p class="tetx"><a class="text" href="https://www.facebook.com/minhthong0189" >Click: ghé qua FaceBook nhà mình nữa, kết bạn nhá<ion-icon name="logo-facebook" style="color: blue;" ></ion-icon></a></p>
+                <p class="text2 textPo2"><a class="text" href="https://www.facebook.com/minhthong0189" >FaceBook:<ion-icon name="logo-facebook" style="color: blue;" ></ion-icon></a></p>
                 <br>
-                <p class="text">My Email: thongtmde160464@fpt.edu.vn</p>
-                <p class="text">My number telephone: 0359791037</p>
+                <p class="text textPo">My Email: <a href="mailto: thongminh23102002@gmail.com">thongminh23102002@gmail.com</a></p>
+                <p class="text textPo">My number telephone: 0359791037</p>
             </div>
         </div>
     </div>
 
-    <script src="option.js" ></script>
+    <script src="./js/option.js" ></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
